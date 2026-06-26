@@ -19,4 +19,3 @@ for (int i = 0; i < 5; i++)
    Console.WriteLine($"Nombre usuario: {infoUsuarios[i].Nombre}\nCorreo: {infoUsuarios[i].Email}\n");
    Console.WriteLine($"Domicilio: {infoUsuarios[i].Info.Direccion},{infoUsuarios[i].Info.Suite},{infoUsuarios[i].Info.Ciudad}"); 
 }
-    

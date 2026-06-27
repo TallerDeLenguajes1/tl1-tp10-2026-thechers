@@ -33,5 +33,5 @@ foreach (var tarea in tareas)
 
 string lista = JsonSerializer.Serialize(tareas);
 
-File.WriteAllText("../tareas.json",lista);
+File.WriteAllText("tareas.json",lista);
 
